@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--  *****   Link To Custom CSS Style Sheet   *****  -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/mediaqueries.css">
+
+	<!--  *****   Link To Font Awsome Icons   *****  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/all.min.css"/>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="img/profile-pic.png" type="image/x-icon">
+    <title>Tapas Dalui | Projects</title>
+</head>
+<body>
+
+    <!--Header-->
+    <div id="header">
+        <img src="img/logo.png" class="logo">
+        
+        
+        <div>
+            <ul id="navbar">
+                <li><a class="active"  href="#projects">Projects</a></li>
+                <span id="close"><i class="fa-solid fa-xmark"></i></span>    
+            </ul>
+        </div>
+        <div id="mobile">
+          <i id="bar" class="fa-solid fa-bars"></i>  
+        </div>
+    </div>
+
+    <div class="logo1">
+        <a href="index.html">
+            <i class="fa-solid fa-backward"></i>
+            Back
+        </a>
+    </div>
+    <section id="projects">
+        <!-- <p class="section__text__p1">Browse My Recent</p> -->
+        <h1 class="title"><i class="fa-solid fa-angles-left"></i>Projects</h1>
+        <div class="project-btn">
+			<button class="button active" data-filter="*">All</button>
+			<button class="button" data-filter=".php">PHP</button>
+		    <button class="button" data-filter=".react">React</button>
+			<button class="button" data-filter=".cloud">Cloud</button>
+		</div>
+        <div class="pro-container">
+            <div class="pro cloud">
+                <img src="img/p1.png" alt="">
+                <div class="des">
+                    <h5>Toko - online shop</h5>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn view"
+                            onclick="location.href='https://tapas-dalui.github.io/toko'">
+                            View
+                        </button>
+                    </div>  
+                </div>
+            </div>
+            <div class="pro cloud">
+                <img src="img/p2.png" alt="">
+                <div class="des">
+                    <h5>Fruitopia - strawberries</h5>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn view"
+                            onclick="location.href='https://tapas-dalui.github.io/FRUITOPIA'">
+                            View
+                        </button>
+                    </div>  
+                </div>
+            </div>
+            <div class="pro react">
+                <img src="img/p3.png" alt="">
+                <div class="des">
+                    <h5>To do list</h5>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn view"
+                            onclick="location.href='https://tapas-dalui.github.io/to-do-list'">
+                            View
+                        </button>
+                    </div>  
+                </div>
+            </div>
+            <div class="pro php">
+                <img src="img/p4.png" alt="">
+                <div class="des">
+                    <h5>Price Table</h5>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn view"
+                        onclick="location.href='https://tapas-dalui.github.io/Price-Table'">
+                        View
+                        </button>
+                    </div>  
+                </div>
+            </div>
+            <div class="pro react">
+                <img src="img/p5.png" alt="">
+                <div class="des">
+                    <h5>Birds Sanctuary</h5>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn view"
+                            onclick="location.href='https://tapas-dalui.github.io/birds_sanctuary'">
+                            View
+                        </button>
+                    </div>  
+                </div>
+            </div>
+            <div class="pro php">
+                <img src="img/p6.png" alt="">
+                <div class="des">
+                    <h5>Product Page</h5>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn view"
+                            onclick="location.href='https://tapas-dalui.github.io/product_page'">
+                            View
+                        </button>
+                    </div>    
+                </div>   
+            </div>           
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright &#169; <span id="year"></span> Tapas Dalui. All Rights Reserved.</p>
+    </footer>
+
+
+<!--   *****   JQuery Link   *****   -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+<!--   *****   Isotope Filter Link   *****  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
